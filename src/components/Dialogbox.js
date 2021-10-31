@@ -48,7 +48,7 @@ function Dialogbox({ data, scroll, height }) {
                     style={{ marginTop: `${height * 0.75}px` }}
                     className=" z-0 absolute flex flex-col justify-center items-center w-screen space-y-7 "
                   >
-                    <div className="z-0 flex justify-center items-center space-x-7">
+                    <div className="z-0 flex justify-center items-center space-x-7 flex-wrap space-y-2">
                       <p className="z-0 text-sm text-white bg-black rounded-3xl py-2 px-16 cursor-pointer opacity-70">
                         CUSTOM ORDER
                       </p>
@@ -63,7 +63,7 @@ function Dialogbox({ data, scroll, height }) {
                 <Fade bottom>
                   <div
                     style={{ marginTop: `${height * 0.75}px` }}
-                    className="z-0 absolute flex flex-col justify-center items-center w-screen space-y-7"
+                    className="z-0 absolute flex flex-col justify-center items-center w-screen space-y-7 "
                   >
                     <div className="z-0 flex justify-center items-center space-x-7">
                       <p className="z-0 text-sm text-white bg-black rounded-3xl py-2 px-16 cursor-pointer opacity-70">
